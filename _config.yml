@@ -1,5 +1,5 @@
-title: "Kutlu's Portfolio"
-description: "Computer Science & Economics student | AI, innovation economics, sustainability"
+title: "Alperen Kars"
+description: "Computer Science & Economics student"
 baseurl: ""       # leave empty for root
 url: "https://alperenkars.github.io"
 
@@ -11,3 +11,6 @@ nav:
     url: "/projects"
   - title: "Personal"
     url: "/personal"
+
+plugins:
+  - jekyll-sitemap
