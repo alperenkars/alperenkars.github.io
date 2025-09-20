@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Anisette Petite";
+    src: url("../fonts/anisettep.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f5f5dc;
+    /* Beige */
+    font-family: "Anisette Petite", sans-serif;
+    color: #2E2B26;
+    line-height: 1.6;
+    font-size: 18px;
+    /* <-- Increased body text size */
+}
+
+.container {
+    max-width: 700px;
+    /* <-- Made the container thinner */
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    text-align: center;
+    /* Optional: centers the nav links */
+}
+
+header nav a {
+    margin: 0 15px;
+    color: #147D73;
+    text-decoration: none;
+    font-size: 1.2em;
+    /* <-- Made nav text bigger */
+    font-weight: bold;
+    /* <-- Made nav text bold */
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Anisette Petite", sans-serif;
+    color: #000;
+}
+
+a {
+    color: #147D73;
+}
+
+/* Add this to the end of assets/css/style.css */
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 2rem 0 1rem;
+    /* Top: 2rem, Left/Right: 0, Bottom: 1rem */
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* === Project Page Styles === */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background-color: #fafaf0;
+    /* Slightly lighter than body background */
+    border: 1px solid #e0e0d1;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0d1;
+}
+
+.project-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* Allows the link to be pushed to the bottom */
+}
+
+.project-card-content h3 {
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+.project-card-content p {
+    font-size: 0.9em;
+    color: #555;
+    flex-grow: 1;
+    /* Pushes the link down */
+}
+
+.project-card-content a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid #e0e0d1;
+    /* A light line to separate it */
+    font-size: 0.9em;
+    color: #888;
+    /* A lighter color for less emphasis */
+}

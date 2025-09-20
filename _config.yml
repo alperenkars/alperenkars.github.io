@@ -1,0 +1,13 @@
+title: "Kutlu's Portfolio"
+description: "Computer Science & Economics student | AI, innovation economics, sustainability"
+baseurl: ""       # leave empty for root
+url: "https://alperenkars.github.io"
+
+# Navigation links
+nav:
+  - title: "About"
+    url: "/"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Personal"
+    url: "/personal"
