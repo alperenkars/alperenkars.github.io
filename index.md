@@ -15,7 +15,7 @@ Outside of work, I run road races and climb mountains. You can see a list of the
 <hr>
 <div class="contact-links">
   <a href="mailto:kutlugkars@gmail.com" target="_blank" rel="noopener noreferrer">❯ Email</a>
-  <a href="https://linkedin.com/in/alperenkars" target="_blank" rel="noopener noreferrer">❯ LinkedIn</a>
+  <a href="https://www.linkedin.com/in/alperen-kars/" target="_blank" rel="noopener noreferrer">❯ LinkedIn</a>
   <a href="https://github.com/alperenkars" target="_blank" rel="noopener noreferrer">❯ GitHub</a>
   <a href="{{ '/assets/pdfs/AlperenKarsCV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">❯ CV</a>
 </div>
