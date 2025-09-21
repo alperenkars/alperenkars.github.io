@@ -3,7 +3,7 @@ layout: default
 title: "Personal"
 ---
 
-Since childhood, I’ve been pretty bad at succeeding in the things I like, and at liking the things I succeed in. Over the past couple of years, I think I’ve found a good balance through mountaineering, running, and occasionally climbing.  
+Since childhood, I’ve been pretty bad at succeeding in the things I like, and at liking the things I succeed in. In the past few years, I think I’ve hit a good balance with mountaineering, running, and occasionally climbing.
 
 ## Mountain log
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1eEmhNe40IXWr-TZTOD_qj4IqONDrKVU&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
